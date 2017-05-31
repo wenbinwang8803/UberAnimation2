@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36BBD6C71EDE67B200AD17E9 /* WBTileImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBD6C61EDE67B200AD17E9 /* WBTileImgView.swift */; };
+		36BBD6CB1EDE737000AD17E9 /* Chimes.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BBD6CA1EDE737000AD17E9 /* Chimes.png */; };
+		36FBAC3F1ED9542A008465C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC3E1ED9542A008465C2 /* AppDelegate.swift */; };
+		36FBAC411ED9542A008465C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC401ED9542A008465C2 /* ViewController.swift */; };
+		36FBAC441ED9542A008465C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FBAC421ED9542A008465C2 /* Main.storyboard */; };
+		36FBAC461ED9542A008465C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FBAC451ED9542A008465C2 /* Assets.xcassets */; };
+		36FBAC491ED9542A008465C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FBAC471ED9542A008465C2 /* LaunchScreen.storyboard */; };
+		36FBAC541ED9542A008465C2 /* UberAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC531ED9542A008465C2 /* UberAnimationTests.swift */; };
+		36FBAC5F1ED9542A008465C2 /* UberAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC5E1ED9542A008465C2 /* UberAnimationUITests.swift */; };
+		36FBAC6F1ED955B8008465C2 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36FBAC6E1ED955B8008465C2 /* timg.jpeg */; };
+		36FBAC711ED9562F008465C2 /* WBUberAnimationBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC701ED9562F008465C2 /* WBUberAnimationBackView.swift */; };
+		36FBAC731ED95652008465C2 /* WBUberAnimationLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC721ED95652008465C2 /* WBUberAnimationLogoView.swift */; };
+		36FBAC751ED96135008465C2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAC741ED96135008465C2 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36FBAC501ED9542A008465C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FBAC331ED9542A008465C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FBAC3A1ED9542A008465C2;
+			remoteInfo = UberAnimation;
+		};
+		36FBAC5B1ED9542A008465C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FBAC331ED9542A008465C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FBAC3A1ED9542A008465C2;
+			remoteInfo = UberAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36BBD6C61EDE67B200AD17E9 /* WBTileImgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTileImgView.swift; sourceTree = "<group>"; };
+		36BBD6CA1EDE737000AD17E9 /* Chimes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chimes.png; sourceTree = "<group>"; };
+		36FBAC3B1ED9542A008465C2 /* UberAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBAC3E1ED9542A008465C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36FBAC401ED9542A008465C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36FBAC431ED9542A008465C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36FBAC451ED9542A008465C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36FBAC481ED9542A008465C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36FBAC4A1ED9542A008465C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FBAC4F1ED9542A008465C2 /* UberAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBAC531ED9542A008465C2 /* UberAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberAnimationTests.swift; sourceTree = "<group>"; };
+		36FBAC551ED9542A008465C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FBAC5A1ED9542A008465C2 /* UberAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FBAC5E1ED9542A008465C2 /* UberAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberAnimationUITests.swift; sourceTree = "<group>"; };
+		36FBAC601ED9542A008465C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FBAC6E1ED955B8008465C2 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		36FBAC701ED9562F008465C2 /* WBUberAnimationBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBUberAnimationBackView.swift; sourceTree = "<group>"; };
+		36FBAC721ED95652008465C2 /* WBUberAnimationLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBUberAnimationLogoView.swift; sourceTree = "<group>"; };
+		36FBAC741ED96135008465C2 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36FBAC381ED9542A008465C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBAC4C1ED9542A008465C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBAC571ED9542A008465C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36FBAC321ED9542A008465C2 = {
+			isa = PBXGroup;
+			children = (
+				36BBD6CA1EDE737000AD17E9 /* Chimes.png */,
+				36FBAC6E1ED955B8008465C2 /* timg.jpeg */,
+				36FBAC3D1ED9542A008465C2 /* UberAnimation */,
+				36FBAC521ED9542A008465C2 /* UberAnimationTests */,
+				36FBAC5D1ED9542A008465C2 /* UberAnimationUITests */,
+				36FBAC3C1ED9542A008465C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36FBAC3C1ED9542A008465C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36FBAC3B1ED9542A008465C2 /* UberAnimation.app */,
+				36FBAC4F1ED9542A008465C2 /* UberAnimationTests.xctest */,
+				36FBAC5A1ED9542A008465C2 /* UberAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36FBAC3D1ED9542A008465C2 /* UberAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				36FBAC3E1ED9542A008465C2 /* AppDelegate.swift */,
+				36FBAC401ED9542A008465C2 /* ViewController.swift */,
+				36FBAC421ED9542A008465C2 /* Main.storyboard */,
+				36FBAC451ED9542A008465C2 /* Assets.xcassets */,
+				36FBAC471ED9542A008465C2 /* LaunchScreen.storyboard */,
+				36FBAC4A1ED9542A008465C2 /* Info.plist */,
+				36FBAC701ED9562F008465C2 /* WBUberAnimationBackView.swift */,
+				36FBAC721ED95652008465C2 /* WBUberAnimationLogoView.swift */,
+				36FBAC741ED96135008465C2 /* Constant.swift */,
+				36BBD6C61EDE67B200AD17E9 /* WBTileImgView.swift */,
+			);
+			path = UberAnimation;
+			sourceTree = "<group>";
+		};
+		36FBAC521ED9542A008465C2 /* UberAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				36FBAC531ED9542A008465C2 /* UberAnimationTests.swift */,
+				36FBAC551ED9542A008465C2 /* Info.plist */,
+			);
+			path = UberAnimationTests;
+			sourceTree = "<group>";
+		};
+		36FBAC5D1ED9542A008465C2 /* UberAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36FBAC5E1ED9542A008465C2 /* UberAnimationUITests.swift */,
+				36FBAC601ED9542A008465C2 /* Info.plist */,
+			);
+			path = UberAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36FBAC3A1ED9542A008465C2 /* UberAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FBAC631ED9542A008465C2 /* Build configuration list for PBXNativeTarget "UberAnimation" */;
+			buildPhases = (
+				36FBAC371ED9542A008465C2 /* Sources */,
+				36FBAC381ED9542A008465C2 /* Frameworks */,
+				36FBAC391ED9542A008465C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberAnimation;
+			productName = UberAnimation;
+			productReference = 36FBAC3B1ED9542A008465C2 /* UberAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36FBAC4E1ED9542A008465C2 /* UberAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FBAC661ED9542A008465C2 /* Build configuration list for PBXNativeTarget "UberAnimationTests" */;
+			buildPhases = (
+				36FBAC4B1ED9542A008465C2 /* Sources */,
+				36FBAC4C1ED9542A008465C2 /* Frameworks */,
+				36FBAC4D1ED9542A008465C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FBAC511ED9542A008465C2 /* PBXTargetDependency */,
+			);
+			name = UberAnimationTests;
+			productName = UberAnimationTests;
+			productReference = 36FBAC4F1ED9542A008465C2 /* UberAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36FBAC591ED9542A008465C2 /* UberAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FBAC691ED9542A008465C2 /* Build configuration list for PBXNativeTarget "UberAnimationUITests" */;
+			buildPhases = (
+				36FBAC561ED9542A008465C2 /* Sources */,
+				36FBAC571ED9542A008465C2 /* Frameworks */,
+				36FBAC581ED9542A008465C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FBAC5C1ED9542A008465C2 /* PBXTargetDependency */,
+			);
+			name = UberAnimationUITests;
+			productName = UberAnimationUITests;
+			productReference = 36FBAC5A1ED9542A008465C2 /* UberAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36FBAC331ED9542A008465C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = beautyWang;
+				TargetAttributes = {
+					36FBAC3A1ED9542A008465C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8RXN5WK479;
+						ProvisioningStyle = Automatic;
+					};
+					36FBAC4E1ED9542A008465C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36FBAC3A1ED9542A008465C2;
+					};
+					36FBAC591ED9542A008465C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36FBAC3A1ED9542A008465C2;
+					};
+				};
+			};
+			buildConfigurationList = 36FBAC361ED9542A008465C2 /* Build configuration list for PBXProject "UberAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36FBAC321ED9542A008465C2;
+			productRefGroup = 36FBAC3C1ED9542A008465C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36FBAC3A1ED9542A008465C2 /* UberAnimation */,
+				36FBAC4E1ED9542A008465C2 /* UberAnimationTests */,
+				36FBAC591ED9542A008465C2 /* UberAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FBAC391ED9542A008465C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBAC491ED9542A008465C2 /* LaunchScreen.storyboard in Resources */,
+				36FBAC461ED9542A008465C2 /* Assets.xcassets in Resources */,
+				36FBAC6F1ED955B8008465C2 /* timg.jpeg in Resources */,
+				36BBD6CB1EDE737000AD17E9 /* Chimes.png in Resources */,
+				36FBAC441ED9542A008465C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBAC4D1ED9542A008465C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBAC581ED9542A008465C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36FBAC371ED9542A008465C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBAC411ED9542A008465C2 /* ViewController.swift in Sources */,
+				36FBAC711ED9562F008465C2 /* WBUberAnimationBackView.swift in Sources */,
+				36FBAC751ED96135008465C2 /* Constant.swift in Sources */,
+				36FBAC3F1ED9542A008465C2 /* AppDelegate.swift in Sources */,
+				36FBAC731ED95652008465C2 /* WBUberAnimationLogoView.swift in Sources */,
+				36BBD6C71EDE67B200AD17E9 /* WBTileImgView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBAC4B1ED9542A008465C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBAC541ED9542A008465C2 /* UberAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FBAC561ED9542A008465C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FBAC5F1ED9542A008465C2 /* UberAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36FBAC511ED9542A008465C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FBAC3A1ED9542A008465C2 /* UberAnimation */;
+			targetProxy = 36FBAC501ED9542A008465C2 /* PBXContainerItemProxy */;
+		};
+		36FBAC5C1ED9542A008465C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FBAC3A1ED9542A008465C2 /* UberAnimation */;
+			targetProxy = 36FBAC5B1ED9542A008465C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36FBAC421ED9542A008465C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FBAC431ED9542A008465C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36FBAC471ED9542A008465C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FBAC481ED9542A008465C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36FBAC611ED9542A008465C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36FBAC621ED9542A008465C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FBAC641ED9542A008465C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RXN5WK479;
+				INFOPLIST_FILE = UberAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WB.UberAnimation.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		36FBAC651ED9542A008465C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8RXN5WK479;
+				INFOPLIST_FILE = UberAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WB.UberAnimation.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		36FBAC671ED9542A008465C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WB.UberAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberAnimation.app/UberAnimation";
+			};
+			name = Debug;
+		};
+		36FBAC681ED9542A008465C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WB.UberAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberAnimation.app/UberAnimation";
+			};
+			name = Release;
+		};
+		36FBAC6A1ED9542A008465C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UberAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WB.UberAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UberAnimation;
+			};
+			name = Debug;
+		};
+		36FBAC6B1ED9542A008465C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UberAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WB.UberAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UberAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36FBAC361ED9542A008465C2 /* Build configuration list for PBXProject "UberAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBAC611ED9542A008465C2 /* Debug */,
+				36FBAC621ED9542A008465C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FBAC631ED9542A008465C2 /* Build configuration list for PBXNativeTarget "UberAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBAC641ED9542A008465C2 /* Debug */,
+				36FBAC651ED9542A008465C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FBAC661ED9542A008465C2 /* Build configuration list for PBXNativeTarget "UberAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBAC671ED9542A008465C2 /* Debug */,
+				36FBAC681ED9542A008465C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FBAC691ED9542A008465C2 /* Build configuration list for PBXNativeTarget "UberAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FBAC6A1ED9542A008465C2 /* Debug */,
+				36FBAC6B1ED9542A008465C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36FBAC331ED9542A008465C2 /* Project object */;
+}
